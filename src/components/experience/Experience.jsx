@@ -1,8 +1,6 @@
 import React from 'react'
 import "./experience.css"
 import {BsPatchCheckFill} from 'react-icons/bs'
-import Posts from '../Posts'
-
 
 const Experience = () => {
   return (
@@ -106,7 +104,6 @@ const Experience = () => {
           </div>
         </div>
       </div>
-     <Posts />
     </section>
   )
 }

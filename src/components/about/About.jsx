@@ -46,7 +46,7 @@ const About = () => {
       I never sleep… almost.
       </p>
 
-      <a href='/contact/#contact' className='btn btn-primary'>Let's Talk</a>
+      <a href='#contact' className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
     </section>
