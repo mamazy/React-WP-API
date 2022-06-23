@@ -6,15 +6,16 @@ import {BiBook} from 'react-icons/bi'
 import {RiServiceLine} from 'react-icons/ri'
 import {BiMessageSquareDetail} from 'react-icons/bi'
 import {useState} from 'react'
+
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href='#top' rel="noreferrer" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
-      <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook /></a>
-      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
-      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
+      <a href='/#top' rel="noreferrer" onClick={() => setActiveNav('/#top')} ClassName="active"><AiOutlineHome /></a>
+      <a href='/about/#about' onClick={() => setActiveNav('about/#about')} className={activeNav === '/about/#about' ? 'active' : ''}><AiOutlineUser /></a>
+      <a href='/portfolio/#experience' onClick={() => setActiveNav('/portfolio/#experience')} className={activeNav === '/portfolio/#experience' ? 'active' : ''}><BiBook /></a>
+      <a href='/services/#services' onClick={() => setActiveNav('/services/#services')} className={activeNav === '/services/#services' ? 'active' : ''}><RiServiceLine /></a>
+      <a href='/contact/#contact' onClick={() => setActiveNav('/contact/#contact')} className={activeNav === '/contact/#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
     </nav>
   )
 }
