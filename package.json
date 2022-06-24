@@ -1,8 +1,8 @@
 {
     "name": "tolue-site",
     "version": "1.0.0",
-    "homepage": "https://tolue.net/app",
-    "proxy":"https://tolue.net",
+    "homepage": ".",
+    "proxy": "https://tolue.net",
     "private": true,
     "dependencies": {
         "@emailjs/browser": "^3.4.0",

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.f9521c75.css",
+    "main.js": "./static/js/main.edd9d0ac.js",
+    "static/media/me.jpg": "./static/media/me.761da6129868e2d9f5f1.jpg",
+    "static/media/me-about.jpg": "./static/media/me-about.77f7e8f7a3cb36f0b032.jpg",
+    "static/media/Milad.jpg": "./static/media/Milad.fa838d5ee87b827c8909.jpg",
+    "index.html": "./index.html",
+    "main.f9521c75.css.map": "./static/css/main.f9521c75.css.map",
+    "main.edd9d0ac.js.map": "./static/js/main.edd9d0ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9521c75.css",
+    "static/js/main.edd9d0ac.js"
+  ]
+}
